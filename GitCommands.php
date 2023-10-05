@@ -34,9 +34,21 @@
         print($git);
         $git = "git push -set--upstream origin main<br>";
         print($git);
+        $git = "*to copy files to your computer*<br>";
+        print($git);
         $git = "git clone 'https link of github'<br>";
         print($git);
         $git = "git pull<br>";
+        print($git);
+        $git = "*to remove files*<br>";
+        print($git);
+        $git = "git rm 'file name'<br>";
+        print($git);
+        $git = "git commit -m 'message'<br>";
+        print($git);
+        $git = "git push<br>";
+        print($git);
+        $git = "*your file should be removed :)*<br>";
         print($git);
         ?>
     </body>
