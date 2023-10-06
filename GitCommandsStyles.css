@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+:root{
+    --white:#ffffff;
+    --blue:#003566;
+    --black:#0000;
+    --gray:#303841;
+    --darkblue:#000814;
+    --size: 100px;
+    --c1: #003566;
+    --c2: #000814;
+}
+
+html {
+    --_g: 
+    var(--c2) 6%  14%,var(--c1) 16% 24%,var(--c2) 26% 34%,var(--c1) 36% 44%,
+    var(--c2) 46% 54%,var(--c1) 56% 64%,var(--c2) 66% 74%,var(--c1) 76% 84%,var(--c2) 86% 94%;
+    background:
+    radial-gradient(100% 100% at 100% 0,var(--c1) 4%,var(--_g),#0008 96%,#0000),
+    radial-gradient(100% 100% at 0 100%,#0000, #0008 4%,var(--_g),var(--c1) 96%)
+    var(--c1);
+    background-size: var(--size) var(--s);
+}
+
+body{
+    box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin: 20px;
+    border-radius: 5%;
+}
+h1{
+    color:var(--white);
+}
+div{
+    background-color: #303841;
+    color:var(--white);
+    width: 300px;
+    border: 7px ridge var(--white);
+    padding: 1%;
+    margin: 20px;
+}
