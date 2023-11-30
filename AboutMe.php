@@ -6,7 +6,7 @@
 	<title>PHP Project</title>
 
 	<head>
-
+	<h1>Test</h1>
 	<body>
 		<?php
 		$name = "Bagawe, Emerson O.";
