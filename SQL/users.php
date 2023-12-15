@@ -35,7 +35,7 @@
         echo "<p>No users registered yet.</p>";
     }
     ?>
-    <!-- Update form-->
+    <!--Update form-->
     <form method="post" action="users.php">
     <h3>Update User</h3>
     <label for="updateId">User ID:</label>
@@ -44,7 +44,7 @@
     <input type="text" name="newUsername" required>
     <input type="submit" name="update" value="Update">
     </form>
-    <!-- Delete form-->
+    <!--Delete form-->
     <form method="post" action="users.php">
         <h3>Delete User</h3>
         <label for="deleteId">User ID:</label>
@@ -81,5 +81,4 @@
     $conn->close();
     ?>
 </body>
-
 </html>
